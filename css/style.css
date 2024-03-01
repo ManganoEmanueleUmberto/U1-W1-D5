@@ -9,14 +9,15 @@ body {
 header {
   text-align: center;
   font-family: "Montserrat", sans-serif;
-  background-image: url(/images/banner.jpg);
-  background-size: cover;
 }
 #logo {
   background-color: black;
-  padding: 4em;
+  padding: 2em;
 }
-
+#title {
+  background-image: url(/images/banner.jpg);
+  background-size: cover;
+}
 #title h1 {
   color: #25a2c3;
   font-weight: bold;
