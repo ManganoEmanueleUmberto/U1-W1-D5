@@ -1,0 +1,152 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+body {
+  color: #393d41;
+  font-size: 1.2rem;
+  font-family: "Open Sans", sans-serif;
+  line-height: 1.65;
+}
+header {
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  background-image: url(/images/banner.jpg);
+  background-size: cover;
+}
+#logo {
+  background-color: black;
+  padding: 4em;
+}
+
+#title h1 {
+  color: #25a2c3;
+  font-weight: bold;
+  line-height: 1.2;
+  font-size: 2em;
+  padding: 0.5em 0;
+}
+#title p {
+  padding: 0.5em;
+}
+
+#btn1 {
+  background-color: #f04c2f;
+  color: white;
+  font-weight: bold;
+  font-size: 1em;
+  margin: 2em 0;
+  padding: 1em 2.5em;
+  border-radius: 5px;
+}
+
+main {
+  text-align: center;
+}
+
+#article h2 {
+  color: #25a2c3;
+  font-weight: bold;
+  margin: 0.5em 0;
+}
+
+#article h2:first-of-type {
+  margin-top: 3em;
+}
+
+main p {
+  margin-bottom: 2em;
+}
+#article p {
+  padding: 0 0.4em;
+  font-size: 1.2em;
+}
+
+#img-rounded {
+  border-radius: 50%;
+}
+#section-orange {
+  color: white;
+  background-color: #e22d0e;
+}
+
+#section-orange h2 {
+  color: white;
+  font-size: 2.3em;
+  padding-top: 1.8em;
+}
+#section-orange p:first-of-type {
+  font-style: italic;
+}
+
+#section-orange p span {
+  font-size: 1.4em;
+}
+#section-orange p:last-of-type {
+  padding-bottom: 2em;
+  margin-bottom: 0;
+}
+
+.img-pc {
+  margin: 4em 0 0 0;
+}
+.box {
+  width: 90%;
+  margin: 0 auto 0 auto;
+  border-right: 1px rgb(215, 214, 214) solid;
+  border-bottom: 1px rgb(215, 214, 214) solid;
+  border-left: 1px rgb(215, 214, 214) solid;
+}
+.box h2 {
+  color: #25a2c3;
+  font-weight: bold;
+  margin: 0.5em 0;
+}
+.box p {
+  padding: 0 1em 0 1em;
+}
+
+footer {
+  text-align: center;
+  background-color: #25a2c3;
+  margin-top: 4em;
+}
+footer h2 {
+  color: white;
+  font-size: 2em;
+  font-weight: bold;
+  padding: 1.4em 0 0.2em 0;
+}
+
+footer a,
+footer li,
+footer p {
+  color: #c8e7f0;
+}
+.fa-phone-square-alt {
+  color: white;
+  padding-right: 0.2em;
+}
+.fa-envelope-square {
+  color: white;
+  padding-right: 0.2em;
+}
+.fa-external-link-square-alt {
+  color: white;
+  padding-right: 0.2em;
+}
+
+footer li:last-of-type {
+  margin-bottom: 1.4em;
+}
+
+hr {
+  color: white;
+  width: 40%;
+}
+
+footer p {
+  padding: 1.4em 0 5em 0;
+}
+
+#p-space {
+  margin-bottom: 2em;
+}
