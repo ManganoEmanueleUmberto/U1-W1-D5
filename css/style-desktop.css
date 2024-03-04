@@ -14,7 +14,7 @@ header {
 }
 #title {
   text-align: center;
-  background-image: url(/images/banner.jpg);
+  background-image: url(../images/banner.jpg);
   background-size: cover;
   padding: 6em 0 10em 0;
 }
